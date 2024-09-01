@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Permisos</title>
+    <link rel="stylesheet" href="css/index2.css">
+</head>
+<body class="fondo">
+    <header>
+        <img src="img/perfil.jpg" alt="Perfil Aprendiz" class="imagen-perfil flex-box1" >
+            <span class="imagen-perfil flex-box1">Administrador</span>
+        <nav>
+            <ul class="flex-box">
+                <li><a href="index.html" class="seccion-estilos">Inicio</a></li>
+                <li><a href="#usuarios" class="seccion-estilos">Usuarios</a></li>
+                <li><a href="#roles" class="seccion-estilos">Asignar Roles</a></li>
+                <li><a href="#registros" class="seccion-estilos">Registros de Acceso</a></li>
+                <li><a href="index16.html" class="seccion-estilos" target="_blank">Asistente ia</a></li>
+                <li><a href="index15.html" class="seccion-estilos" target="_blank">Feedback</a></li>
+                <a href="index8.html" class="seccion-estilos"> màs</a>
+
+            </ul>
+        </nav>
+        <h1 class="border seccion-estilos">Gestión de Permisos de Acceso</h1>
+    </header>
+    <main>
+        <section id="usuarios" class="container seccion-estilos">
+            <h2>Lista de Usuarios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Rol Actual</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alex jhoan</td>
+                        <td>Alex@gmail.com</td>
+                        <td>Aprendiz</td>
+                        <td><a href="#roles">Cambiar Rol</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Andres camilo</td>
+                        <td>Andres01@gmail.com.</td>
+                        <td>Administrador</td>
+                        <td><a href="#roles">Cambiar Rol</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>santiago rengifo</td>
+                        <td>santiago22@gmail.com.</td>
+                        <td>instructor</td>
+                        <td><a href="#roles">Cambiar Rol</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="roles" class="container seccion-estilos">
+            <h2>Asignar Roles</h2>
+            <form action="/asignar-rol" method="post">
+                <div class="form-group">
+                    <label for="usuario-id">ID del Usuario:</label>
+                    <input type="text" id="usuario-id" name="usuario-id" required>
+                </div>
+                <div class="form-group">
+                    <label for="nuevo-rol">Nuevo Rol:</label>
+                    <select id="nuevo-rol" name="nuevo-rol" required>
+                        <option value="" disabled selected>Selecciona un rol</option>
+                        <option value="usuario">Usuario</option>
+                        <option value="administrador">Administrador</option>
+                        <option value="moderador">Moderador</option>
+                    </select>
+                </div>
+                <button type="submit">Asignar Rol</button>
+            </form>
+        </section>
+
+        <section id="registros" class="container seccion-estilos">
+            <h2>Registros de Acceso</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Usuario</th>
+                        <th>Fecha y Hora</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alex jhoan</td>
+                        <td>2024-08-27 10:30</td>
+                        <td>Inicio de sesión</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Andres camilo</td>
+                        <td>2024-08-27 11:00</td>
+                        <td>Inicio de sesión</td>
+                    </tr><tr>
+                        <td>3</td>
+                        <td>Santiago Rengifo</td>
+                        <td>2024-08-28 11:24</td>
+                        <td>Inicio de sesión</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container seccion-estilos">
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <p>Correo Electrónico: <a href="correo:ActivSena@soy.sena.edu.co.com">Activsena@soy.sena.edu.co</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <img src="img/perfil.jpg" alt="Perfil Aprendiz" class="imagen-perfil flex-box1" >
+        <span class="imagen-perfil flex-box1">Aprendiz</span>
+    <nav>
+        <nav>
+            <ul class="flex-box">
+                <li><a href="index.html" class="seccion-estilos">Inicio</a></li>
+                <li><a href="#registrar-actividad" class="seccion-estilos">Registrar Actividad</a></li>
+                <li><a href="index16.html" class="seccion-estilos">Asistente ia</a></li>
+                <li><a href="indexcontac.html" class="seccion-estilos">Contacto</a></li>
+                <li><a href="index6.html" class="seccion-estilos" target="_blank">ludicas</a></li>
+                <li><a href="index15.html" class="seccion-estilos" target="_blank">Feedback</a></li>
+                
+            </ul>
+        </nav>
+        <h1 class="border seccion-estilos">
+            Seguimiento de tu bienestar!
+        </h1>
+        <div class="container">
+            <h1 id="registrar-actividad">Registrar Actividad de Bienestar</h1>
+            <form action="/enviar-formulario" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre de la Actividad:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipo">Tipo de Actividad:</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="" disabled selected>Selecciona un tipo</option>
+                        <option value="deportiva">Deportiva</option>
+                        <option value="educativa">Educativa</option>
+                        <option value="social">Social</option>
+                        <option value="cultural">Cultural</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="notificaciones">
+                        <input type="checkbox" id="notificaciones" name="notificaciones">
+                        ¿Deseas recibir notificaciones?
+                    </label>
+                    <img src="img/activsena.jpeg" alt="Actividades SENA" class="imagen">
+                </div>
+                <button type="submit">Registrar Actividad</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="container seccion-estilos noticias">
+            <h2>Noticias y Actualizaciones</h2>
+            <article>
+                <h3>Nuevo Taller Primeros Auxilios</h3>
+                <p>Estamos emocionados de anunciar un nuevo taller de Primeros auxilios que se llevará a cabo el próximo mes. ¡No te lo pierdas!</p>
+            </article>
+            <article>
+                <h3>Camping en la Granja</h3>
+                <p>Únete a nuestro campamento en la granja todos los sábados a las 9 a.m. ¡Es gratis y abierto a todos!</p>
+            </article>
+        </section>
+        <section class="container seccion-estilos calendario">
+            <h2>Calendario de Actividades</h2>
+            <div id="calendario">
+                <p>Próximos eventos: <a href="#">Ver más</a></p>
+            </div>
+        </section>
+        <section class="container seccion-estilos testimonios">
+            <h2>Lo que dicen nuestros usuarios</h2>
+            <blockquote>
+                <p>"Las actividades ofrecidas han mejorado significativamente mi bienestar físico y mental. ¡Recomiendo participar en cada evento!" - Juan Pérez</p>
+            </blockquote>
+            <blockquote>
+                <p>"Los talleres son muy informativos y útiles. Me han ayudado a aprender técnicas de relajación efectivas." - María López</p>
+            </blockquote>
+        </section>
+        <section class="container seccion-estilos">
+            <h2>Deja tu Comentario</h2>
+            <form action="/enviar-comentario" method="post">
+                <div class="form-group">
+                    <label for="nombre-comentario">Nombre:</label>
+                    <input type="text" id="nombre-comentario" name="nombre-comentario" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar Comentario</button>
+            </form>
+        </section>
+        <section class="container seccion-estilos actividades-recientes" id="actividades-recientes">
+            <h2>Actividades Recientes</h2>
+            <ul>
+                <li>
+                    <h3>Actividad Deportiva: Futbol</h3>
+                    <p>Descripción: Clase de futbol para mejorar la fuerza de pie.</p>
+                </li>
+                <li>
+                    <h3>Actividad Educativa: Taller de Jornada de Salud</h3>
+                    <p>Descripción: Taller sobre técnicas de meditación para reducir el estrés.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container seccion-estilos">
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <p>Correo Electrónico: <a href="mailto:activsena@soy.sena.edu.co">activsena@soy.sena.edu.co</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+

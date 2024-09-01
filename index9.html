@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración del Administrador</title>
+    <link rel="stylesheet" href="css/index9.css">
+</head>
+<body>
+    <header>
+        <img src="img/perfil.jpg" alt="Perfil Administrador" class="imagen-perfil texto-perfil">
+        <span class="texto-perfil">Administrador</span>
+        <img src="img/activsena.jpeg" alt="" class="imagen">
+        <h1 class="seccion-estilos">Panel de Administración - Configuración</h1>
+       
+     
+    </header>
+
+    <main>
+        <div class="configuracion-container">
+            <section class="configuracion-perfil">
+                <h2>Configuración del Perfil</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre del administrador">
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico">
+
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Nueva contraseña">
+
+                    <button type="submit" class="btn-guardar">Guardar Cambios</button>
+                </form>
+            </section>
+
+            <section class="gestion-usuarios">
+                <h2 id="gestion de usuarios">Gestión de Usuarios</h2>
+                <button class="btn-agregar-usuario">Agregar Usuario</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Email</th>
+                            <th>Rol</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                        <tr>
+                            <td>1</td>
+                            <td>Alexjhoan</td>
+                            <td>Alexchaguendo@gmail.com</td>
+                            <td>Instructor</td>
+                            <td>
+                                <button class="btn-editar">Editar</button>
+                                <button class="btn-eliminar">Eliminar</button>
+                            </td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="configuracion-sistema">
+                <h2>Configuración del Sistema</h2>
+                <form>
+                    <label for="hora">Hora del Sistema:</label>
+                    <input type="time" id="hora" name="hora">
+            
+                    <label for="zona-horaria">Zona Horaria:</label>
+                    <select id="zona-horaria" name="zona-horaria">
+                        <option value="America/Bogota" selected>colombia/Bogotá (UTC-5)</option>
+                      
+                    </select>
+            
+                    <button type="submit" class="btn-guardar">Guardar Configuración</button>
+                </form>
+            </section>
+            
+        </div>
+    </main>
+
+    <footer>
+        <p>Contacto: ActivSena@soy.sena.edu.co</p>
+    </footer>
+</body>
+</html>

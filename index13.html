@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificación de Eventos</title>
+    <link rel="stylesheet" href="css/index13.css">
+</head>
+<body>
+    <header>
+        <img src="img/perfil.jpg" alt="Perfil Aprendiz" class="imagen-perfil flex-box" >
+            <span class="imagen-perfil flex-box">Instructor</span>
+        <h1>Planificación de Eventos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="indexca_in.html">Eventos</a></li>
+                <li><a href="indexcontac.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="form-container">
+            <h2>Agregar Nuevo Evento</h2>
+            <form id="event-form">
+                <label for="event-name">Nombre del Evento</label>
+                <input type="text" id="event-name" name="event-name" required>
+                
+                <label for="event-date">Fecha del Evento</label>
+                <input type="date" id="event-date" name="event-date" required>
+                
+                <label for="event-location">Ubicación</label>
+                <input type="text" id="event-location" name="event-location" required>
+                
+                <label for="event-description">Descripción</label>
+                <textarea id="event-description" name="event-description" rows="4" required></textarea>
+                
+                <button type="submit">Agregar Evento</button>
+            </form>
+        </section>
+        
+        <section class="event-list">
+            <h2>Eventos Programados</h2>
+            <div id="event-items">
+                
+            </div>
+        </section>
+        
+        <section class="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="contact-name">Nombre</label>
+                <input type="text" id="contact-name" name="contact-name" required>
+                
+                <label for="contact-email">Correo Electrónico</label>
+                <input type="email" id="contact-email" name="contact-email" required>
+                
+                <label for="contact-message">Mensaje</label>
+                <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </div>
+
+    <script>
+        document.getElementById('event-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('event-name').value;
+            const date = document.getElementById('event-date').value;
+            const location = document.getElementById('event-location').value;
+            const description = document.getElementById('event-description').value;
+
+            const eventItems = document.getElementById('event-items');
+            const eventDiv = document.createElement('div');
+            eventDiv.className = 'event-item';
+            eventDiv.innerHTML = `
+                <h3>${name}</h3>
+                <p><strong>Fecha:</strong> ${date}</p>
+                <p><strong>Ubicación:</strong> ${location}</p>
+                <p>${description}</p>
+            `;
+            eventItems.appendChild(eventDiv);
+
+            
+            document.getElementById('event-form').reset();
+        });
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Mensaje enviado. ¡Gracias por contactarnos!');
+            document.getElementById('contact-form').reset();
+        });
+    </script>
+</body>
+</html

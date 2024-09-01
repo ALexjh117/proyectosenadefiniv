@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 02</title>
+  <meta name="description" content="pagina pa tirar codigo html">
+  <link rel="shortcut icon" href="img/ola.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/indexn1.css">
+</head>
+<body class="fondo">
+  <header class="header estilos">
+    <article class="border">
+      <h1 class="logo">Activ sena</h1>
+    </article>
+    <nav class="border">
+      <ul class="menu1">
+        <li class="item">
+          <a href="index.html" target="_blank">Inicio</a>
+        </li>
+        <li class="item">
+          <a href="indexnosotros.html">Nosotros</a>
+        </li>
+        <li class="item">
+          <a href="indexcontac.html" target="_blank">Contacto</a>
+        </li>
+        <li class="item">
+          <a href="#unirse">Unirse</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="border">
+      <li class="item">
+        <a href="#horario-laboral">Horario laboral</a>
+      </li>
+    </nav>
+</header>
+<br>
+<main class="main">
+  <section class="border estilos">
+    <h1>Bienvendio a ACTIVSENA</h1>
+    <h2>Conecta</h2>
+    <h3>Registra</h3>
+    <h4>Divertete</h4>
+    <h5>Somos sena</h5>
+  </section>
+  <br>
+  <section class="border estilos">
+    <h1 class="estilos">ACTIVSENA</h1>
+    <p class="estilos">Activ Sena es una empresa líder en soluciones tecnológicas innovadoras...</p>
+  </section>
+  <section class="border estilos2">
+    <h1 id="nosotros">Unete a nosotros!</h1>
+    <p><a href="#top">subir</a></p>
+    <h2>Logros</h2>
+    <ol>
+      <li>Premio a la Innovación Tecnológica 2023</li>
+      <li>Más de 100 aplicaciones personalizadas</li>
+      <li>Certificación ISO 9001</li>
+      <li>Expansión a 5 nuevos mercados internacionales.</li>
+    </ol>
+    <h3>Lideres principales</h3>
+    <ul>
+      <li>Alex jhoan:Líder Principal y Scrum Master</li>
+      <li>Andres camilo:Director de Expansión Internacional</li>
+      <li>Santiago rengifo:Jefe de Innovación Tecnológica</li>
+    </ul>
+    <h4>Sub Lideres</h4>
+    <dl>
+      <dt><strong>Alexandra:Sub-Líder de Gestión de Proyectos</strong></dt>
+      <dd><i>Maikol Daza:Sub-Líder de Desarrollo Tecnológico</i></dd>
+      <dt><strong>Fredy Urbano Sub-Líder de Soporte y Operaciones:</strong></dt>
+      <dd><i>Jonathan Aux:Sub-Líder de Estrategia y Análisis:</i></dd>
+    </dl>
+  </section>
+</main>
+<section class="estilos">
+  <h1 id="horario-laboral">Horario laboral</h1>
+  <table>
+    <thead>
+      <tr>
+        <th class="border">Hora</th>
+        <th class="border">Lunes</th>
+        <th class="border">Martes</th>
+        <th class="border">Miercoles</th>
+        <th class="border">Jueves</th>
+        <th class="border">Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border">7:00 - 9:00</td>
+        <td class="border">Desarrollo backend</td>
+        <td class="border" rowspan="2">Desarrollo backend</td>
+        <td class="border" rowspan="2">Reunion de Equipo</td>
+        <td class="border">apps</td>
+        <td class="border" rowspan="2">Reunion de Equipo</td>
+      </tr>
+      <tr>
+        <td class="border">9:00 - 10:00</td>
+        <td class="border">Desarrollo backend</td>
+        <td class="border">apps</td>
+      </tr>
+      <tr>
+        <td class="border" colspan="6">Descanso</td>
+      </tr>
+      <tr>
+        <td class="border">10:00 - 11:00</td>
+        <td class="border">desarrollo frontend</td>
+        <td class="border">Reunion de equipo</td>
+        <td class="border">desarrollo frontend</td>
+        <td class="border">frontend</td>
+        <td class="border">Reunion de equipo</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="border" colspan="6">HORARIO LABORAL</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+<br>
+<section class="border estilos">
+  <h1 id="unirse">Unete a nosotros</h1>
+  <form class="form" action="(link unavailable)">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <br>
+      <input id="nombre" type="text" required placeholder="NoName">
+    </div>
+    <div>
+      <fieldset>
+        <legend>Intereses y Actividades del Desarrollador:</legend>
+        <input type="radio" name="intereses" value="Apps Móviles"> Apps Móviles
+        <input type="radio" name="intereses" value="Sitios Web"> Sitios Web
+        <input type="radio" name="intereses" value="Juegos"> Juegos
+      </fieldset>
+    </div>
+    <fieldset>
+      <legend>Género:</legend>
+      <input type="checkbox" name="Genero" value="Masculino"> Masculino
+      <input type="checkbox" name="Genero" value="Femenino"> Femenino
+      <input type="checkbox" name="Genero" value="Otros"> Otros
+    </fieldset>
+    <div>
+      <label for="fecha">Fecha de nacimiento:</label>
+      <br>
+      <input id="fecha" type="date">
+    </div>
+    <div>
+      <label for="pais">País:</label>
+      <br>
+      <select name="pais" id="pais">
+        <option value="Colombia">Colombia</option>
+        <option value="Mexico">México</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Venezuela">Venezuela</option>
+      </select>
+    </div>
+    <div>
+      <label for="email">Correo electrónico:</label>
+      <br>
+      <input id="email" type="email">
+    </div>
+    <div>
+      <label for="ciudad">Ciudad:</label>
+      <br>
+      <input id="ciudad" type="text">
+    </div>
+    <div>
+      <label for="documento">Documento:</label>
+      <br>
+      <input id="documento" type="file">
+    </div>
+    <div>
+      <label for="mensaje">Mensaje:</label>
+      <br>
+      <textarea name="mensaje" id="mensaje">Escriba aquí:</textarea>
+    </div>
+    <div>
+      <label for="contraseña">Contraseña:</label>
+      <br>
+      <input id="contraseña" type="password">
+    </div>
+    <button>Registrar</button>
+  </form>
+</section>
+<br>
+<footer class="footer">
+  <p>¿Qué esperas para unirte a esta familia?</p>
+  <p>Conecta, registra y gestiona. Disfruta al máximo en el SENA.</p>
+</footer>
+</body>
+</html>
