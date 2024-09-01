@@ -1,0 +1,174 @@
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+}
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+header form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .form-control {
+    border-radius: 0.25rem;
+}
+
+header .btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+header .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.seccion-estilos {
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 0.5rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.seccion-estilos {
+    background-color: rgba(241, 245, 247, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.fondo {
+    background-color: #ccc;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 30vh;            
+}
+
+    
+
+
+
+.imagen{
+    width: 120px;
+    height: 130px;
+     
+    
+    
+
+}
+.imagen-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.flex-box{
+   display: flex;
+ 
+   justify-content: end;
+   margin-right: 30px;
+}
+
+

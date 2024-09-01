@@ -1,0 +1,164 @@
+header{
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(196, 196, 196);
+    margin: 10px;
+
+}
+.espacio{
+    
+    color: white;
+    text-align: right;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    color:green;
+
+}
+
+main{
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+    width: 99%;
+    margin: 10px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap; 
+    border-radius: 15px;
+    width: 50%;
+    margin: 10px; 
+}
+
+.border{
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(14, 199, 14);
+
+}
+
+th, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+article{
+    display: flex;
+    flex-wrap: wrap; 
+    border-radius: 15px;
+    border: 2px solid gray;
+    width: 85%;
+    margin: 10px; 
+}
+
+nav{
+    border: 2px solid rgb(196, 196, 196);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    width: 85%;
+
+}
+.cuadro{
+    background-color: rgba(148, 147, 147, 0.7);
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    width: 70%;
+    text-align: center;
+    margin: 10px;
+}
+
+
+footer{
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+    width: 99%;
+    margin: 10px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+aside{
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+.menu1{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .estilos{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+
+  .estilos2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+  }
+
+  .img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200%;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.vertical{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+
+
+}
+
+.centrar{
+    justify-content: center;
+    text-align: center;
+}
+
+.tamaño{
+    width: 80%;
+    justify-content: center;
+    margin: 10px;
+
+
+}

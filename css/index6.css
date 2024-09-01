@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #5b5e61;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.registro, .resumen, .informacion {
+    margin-bottom: 20px;
+}
+
+.lista-horas {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-horas li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro-resumen, .cuadro-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-horas, .mensaje-status {
+    font-size: 18px;
+}
+
+.enlace-certificado {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.enlace-certificado.oculto {
+    display: none;
+}
+
+.mensaje-status span {
+    font-weight: bold;
+}
+
+.grafico {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.barra {
+    width: 0;
+    height: 30px;
+    background-color: #45484b;
+    border-radius: 15px;
+    transition: width 0.5s;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.descripcion-barra {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(220, 2%, 35%);
+    color: #fff;
+}
+
+
+.seccion-estilos {
+    margin-bottom: 20px;
+    background-color: rgba(241, 245, 247, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.seccion-estilos2 {
+    margin-bottom: 20px;
+    background-color: rgba(81, 87, 90, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.flex-box{
+    display: flex;
+   
+   
+}
+
+.imagen{
+    width: 120px;
+    height: 130px;
+}
+
+.seccion-estilos {
+    margin-bottom: 20px;
+    background-color: rgba(241, 245, 247, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.flex-box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    justify-content: space-between;
+   
+   
+   
+}

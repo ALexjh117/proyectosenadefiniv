@@ -1,0 +1,178 @@
+body {
+  background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0; 
+    padding: 0; 
+    color: #333; 
+    font-family: Arial, sans-serif;
+}
+
+header, main, footer {
+    padding: 1rem;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.border { 
+    border: 1px solid white;
+}
+
+.imagen { 
+    width: 35%;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.seccion-estilos {
+    background-color: rgba(241, 245, 247, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.noticias article, .testimonios blockquote {
+    margin-bottom: 1.5rem;
+}
+
+.galeria-imagenes img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center; 
+}
+
+.header { 
+    height: 100vh;
+}
+
+#actividades-recientes {
+    margin-top: 20px;
+}
+
+
+.header img {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 20%;
+    height: auto;
+}
+.imagen-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.flex-box1{
+   display: flex;
+   flex-wrap: wrap;
+   
+   margin-right: 30px;
+}
+

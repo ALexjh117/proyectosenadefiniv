@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4d4d4;
+    padding: 10px 20px;
+}
+
+.logo-header img {
+    width: 100px;
+}
+
+.opciones {
+    display: flex;
+    align-items: center;
+}
+
+.opciones .icon {
+    width: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.opciones .usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #e4e2e4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.chat {
+    margin-top: 20px;
+}
+
+.chat button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+.actividad {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.caja {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.caja h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+li .icon {
+    margin-right: 8px; 
+    width: 35px;
+    
+}
+.chat {
+    display: flex;
+    align-items: center;
+}
+
+.chat .icon {
+    margin-right: 8px; 
+    width: 35px;
+}

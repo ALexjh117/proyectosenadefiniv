@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(241, 245, 247, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 40%;
+    height: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    width: 95px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.form-container {
+    flex: 1;
+}
+
+.form-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.button-group button.back {
+    background-color: #999;
+    width: 80px;
+}
+
+.button-group button.continue {
+    background-color: #c4cfc7;
+    width: 100px;
+}

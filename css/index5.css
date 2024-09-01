@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.horas, .fechas, .programa, .fecha {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.firma {
+    margin-top: 20px;
+}
+
+.linea-firma {
+    border-top: 1px solid #000;
+    width: 300px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.seccion-estilos {
+    margin-bottom: 20px;
+    background-color: rgba(241, 245, 247, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo {
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
